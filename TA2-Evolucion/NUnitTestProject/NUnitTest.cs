@@ -30,21 +30,21 @@ namespace NUnitTestProject
         public void TestRestar()
         {
             TestClass objeto = new TestClass();
-            Assert.AreNotEqual(6, objeto.Restar(8, 2));
+            Assert.AreNotEqual(7, objeto.Restar(8, 2));
         }
 
         [Test]
         public void TestGetLetra()
         {
             TestClass objeto = new TestClass();
-            Assert.AreNotEqual("rro", objeto.SepararCadena("Perro", 2));
+            Assert.AreNotEqual("ro", objeto.SepararCadena("Perro", 2));
         }
 
         [Test]
         public void TestGetDato()
         {
             TestClass objeto = new TestClass();
-            Assert.IsNull(objeto.BuscarDato("perro"));
+            Assert.IsNull(objeto.BuscarDato("huron"));
         }
 
         [Test]

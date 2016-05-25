@@ -96,7 +96,7 @@ namespace TA2_Evolucion
             Producto p = new Producto();
             p.Codigo = 1; p.Nombre = "Lapicero"; p.Descripcion = "Pilot"; p.Precio = 3.5;
             Producto p1 = new Producto();
-            p1.Codigo = 2; p1.Nombre = "Borrador"; p1.Descripcion = "Staedler"; p.Precio = 2.5;
+            p1.Codigo = 2; p1.Nombre = "Borrador"; p1.Descripcion = "Staedler"; p1.Precio = 2.5;
             lista.Add(p); lista.Add(p1);
 
             foreach (Producto prod in lista)
@@ -113,7 +113,7 @@ namespace TA2_Evolucion
             Producto p = new Producto();
             p.Codigo = 1; p.Nombre = "Lapicero"; p.Descripcion = "Pilot";p.Precio=3.5;
             Producto p1 = new Producto();
-            p1.Codigo = 2; p1.Nombre = "Borrador"; p1.Descripcion = "Staedler";p.Precio=2.5;
+            p1.Codigo = 2; p1.Nombre = "Borrador"; p1.Descripcion = "Staedler";p1.Precio=2.5;
             lista.Add(p); lista.Add(p1);
 
             foreach (Producto prod in lista)
